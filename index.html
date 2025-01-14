@@ -31,18 +31,22 @@
             </h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
-                <a href="https://github.com/bboylyg
-              ">Yige Li</a><sup>1</sup>,</span>
+                <a href="https://github.com/bboylyg">
+              Yige Li</a><sup>1</sup>,</span>
               <span class="author-block">
-              ">Hanxun Huang<sup>2</sup>,</span>
+                  <a href="https://hanxunh.github.io">
+              Hanxun Huang</a><sup>2</sup>,</span>
               <span class="author-block">
-              ">Yunhan Zhao<sup>3</sup>,
+                  <a href="https://scholar.google.com.sg/citations?user=8Brbo6YAAAAJ&hl=en">
+              Yunhan Zhao</a><sup>3</sup>,
               </span>
               <span class="author-block">
-              ">Xingjun Ma<sup>3</sup>,
+                  <a href="http://xingjunma.com">
+              Xingjun Ma</a><sup>3</sup>,
               </span>
               <span class="author-block">
-              ">Jun Sun<sup>2</sup>
+                  <a href="https://sunjun.site">
+              Jun Sun</a><sup>1</sup>
               </span><br />
             </div>
 
@@ -54,7 +58,7 @@
             <div class="column has-text-centered">
               <div class="publication-links">
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/xxxxx" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/abs/2408.12798" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon"><i class="ai ai-arxiv"></i></span>
                     <span>Paper</span>
                   </a>
@@ -99,8 +103,15 @@
         <div class="column is-four-fifths">
           <h2 class="title is-3">Overview</h2>
           <div class="content has-text-justified">
-            <p>BackdoorLLM is a comprehensive benchmark designed to evaluate and analyze the vulnerabilities of large language models (LLMs) to backdoor attacks. Our framework provides a systematic methodology for implanting, detecting, and mitigating backdoors in instruction-tuned and general-purpose LLMs. By leveraging diverse trigger designs and evaluation settings, BackdoorLLM offers insights into the security challenges posed by backdoor attacks and highlights potential defense mechanisms.</p>
-            <p>This project introduces novel multi-trigger attack paradigms, datasets, and evaluation metrics to comprehensively assess LLM security. Our findings emphasize the importance of robust model training pipelines and data integrity checks to mitigate backdoor threats.</p>
+
+            <p>We introduce *BackdoorLLM*, the first comprehensive benchmark for studying backdoor attacks on Large Language Models (LLMs). *BackdoorLLM* includes:<p>
+
+           <ol>
+          <li>- **A Benchmark Repository:** A repository of benchmarks designed to facilitate research on backdoor attacks on LLMs. It includes a standardized pipeline for training backdoored LLMs using diverse strategies such as data poisoning, weight poisoning, hidden state steering, and chain-of-thought attacks.</li>
+          <li>- **Comprehensive Evaluations:** Extensive evaluations across various LLM architectures and task datasets. We evaluated six LLM models, including Llama-7B, Llama-13B, and Llama-70B, as well as other models like Mistral. Our evaluations cover backdoor attacks across representative datasets such as Stanford Alpaca, AdvBench, and math reasoning datasets, ensuring thorough assessments.</li>
+          <li>- **Key Insights:** New insights into the nature of backdoor vulnerabilities in LLMs, aiding future developments in LLM backdoor defense methods.</li>
+          </ol>
+            <p>We hope *BackdoorLLM* can raise awareness of backdoor threats and contribute to advancing AI safety within the research community.<p>
           </div>
         </div>
       </div>
@@ -110,7 +121,7 @@
   <section class="section">
     <div class="container is-max-desktop">
       <div style="text-align:center">
-        <h2 class="title is-3">Method</h2>
+        <h2 class="title is-3">Evaluation for Backdoor Attacks on LLMs</h2>
       </div>
       <div class="content has-text-justified">
         <p>BackdoorLLM implements the following steps for conducting backdoor attacks:</p>
@@ -120,7 +131,7 @@
           <li>Train or fine-tune LLMs on the combined clean and poisoned datasets.</li>
           <li>Evaluate the success of backdoor triggers and analyze model robustness against various defense strategies.</li>
         </ol>
-        <p>Our benchmark includes both semantic and non-semantic trigger designs to assess different attack paradigms.</p>
+        <p>Our benchmark includes four backdoor attack strategies, i.e. data poisoning attacks (DPA), weight poisoning attacks (WPA), hidden state attacks (HSA), and chain-of-thought attacks (CoTA) for a comprehensive benchmark, to assess different attack paradigms thoroughly.</p>
       </div>
       <br>
       <!-- 添加 GIF 演示 -->
@@ -128,7 +139,7 @@
         <div class="column is-half has-text-centered">
           <h3 class="title is-4">Demonstration</h3>
           <img style='height: auto; width: 100%; object-fit: contain; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);' src="static/images/demo_caption.gif" alt="BackdoorLLM Demo">
-          <p class="is-size-5" style="margin-top: 10px;">Figure: Demonstration of BackdoorLLM's behavior under specific trigger scenarios.</p>
+          <p class="is-size-5" style="margin-top: 10px;">Demonstration Example.</p>
         </div>
       </div>
     </div>
@@ -160,9 +171,7 @@
             <p>
               This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
             </p>
-            <p>
-              Source code is available on <a href="https://github.com/bboylyg/BackdoorLLM">GitHub</a>.
-            </p>
+      
           </div>
         </div>
       </div>
