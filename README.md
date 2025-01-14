@@ -6,7 +6,7 @@ If you find our work useful, please cite:
 ```
 @article{yan2023virtual,
   title={BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks on Large Language Models},
-  author={BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks on Large Language Models},
+  author={Li, Yige and Huang, Hanxun and Zhao, Yunhan and Ma, Xingjun and Sun, Jun},
   journal={arXiv preprint arXiv:2408.12798},
   year={2024}
 }
