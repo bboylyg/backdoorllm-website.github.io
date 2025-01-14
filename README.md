@@ -1,14 +1,14 @@
-# Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection
+# BackdoorLLM
 
-This repo contains the [project website](http://poison-llm.github.io) source code for paper [*Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection*](https://arxiv.org/abs/2307.16888).
+This repo contains the [project website](http://BackdoorLLM.github.io) source code for paper [*BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks on Large Language Models*](https://arxiv.org/abs/2408.12798).
 
 If you find our work useful, please cite:
 ```
 @article{yan2023virtual,
-  title={Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection},
-  author={Yan, Jun and Yadav, Vikas and Li, Shiyang and Chen, Lichang and Tang, Zheng and Wang, Hai and Srinivasan, Vijay and Ren, Xiang and Jin, Hongxia},
-  journal={arXiv preprint arXiv:2307.16888},
-  year={2023}
+  title={BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks on Large Language Models},
+  author={BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks on Large Language Models},
+  journal={arXiv preprint arXiv:2408.12798},
+  year={2024}
 }
 ```
 
