@@ -1,6 +1,6 @@
 # BackdoorLLM
 
-This repo contains the [project website](http://BackdoorLLM.github.io) source code for paper [*BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks on Large Language Models*](https://arxiv.org/abs/2408.12798).
+This repo contains the [project website](https://bboylyg.github.io/backdoorllm-website.github.io/) source code for paper [*BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks on Large Language Models*](https://arxiv.org/abs/2408.12798).
 
 If you find our work useful, please cite:
 ```
